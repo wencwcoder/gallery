@@ -61,7 +61,13 @@ And that's it. Lens will figure out the rest.
 
 The "data-position" attribute:
 
-As a full screen experience, the viewer will be subject to changes in its size and, consequently, its aspect ratio. Since your full size images are basically applied as backgrounds to the viewer itself, this means they'll probably (okay, definitely) get cropped. All is not lost, however, as you can use the optional "data-position" attribute to control how the full size image is positioned within the viewer. To do this, simply add it to your thumbnail's <a> element and set it to any valid "background-position" value. For example, this:
+As a full screen experience, the viewer will be subject to changes in its size
+and, consequently, its aspect ratio. Since your full size images are basically
+applied as backgrounds to the viewer itself, this means they'll probably (okay,
+definitely) get cropped. All is not lost, however, as you can use the optional
+"data-position" attribute to control how the full size image is positioned within
+the viewer. To do this, simply add it to your thumbnail's <a> element and set it
+to any valid "background-position" value. For example, this:
 
 <a class="thumbnail" href="path/to/fullsize.jpg" data-position="top left">...</a>
 ... positions this particular full size image in the top left corner of the viewer (as
